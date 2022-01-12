@@ -1,0 +1,175 @@
+header, nav{
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    padding: 0.8 px;
+}
+
+#logo{
+    border-radius: 25px;
+}
+
+.top-left-mid {
+    padding-left: 25px;
+    padding-right: initial;
+    padding-top: intiial;
+    padding-bottom: initial;
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 1px;
+    border-bottom-width:0;
+}
+
+h1 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+}
+h3 {
+  font-size: 15px;
+  margin: 2px;
+}
+
+h4 {
+  display: inline-block;
+}
+#page-menu ul li{
+    display: inline;
+    margin:20px;
+}
+
+body{
+    background-color: rgb(244, 244, 244);
+    justify-content: space-between;
+}
+
+.post{
+    background-color: white;
+    width: 400px;
+    margin-top: 20px;
+
+}
+
+.post-horizontal{
+    width: 400px;
+    margin-top: 30px;
+} 
+
+.post > p{
+    margin-top: 0px;
+}
+
+img {
+    margin: 20px 20px 10px 0px;
+    text-align: left;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 10px;
+}
+#top-left-side, #container {
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+}
+
+main{
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    height: 2250px;
+}
+
+.board-margin{
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+#miniposts  {
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+}
+
+footer > a {
+    padding-left: 400px;
+}
+
+#container > section{
+    background-color: white;
+    width: 720px;
+    height: 620px;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 14px;
+    padding-top: 22px;  
+    padding-bottom: 15px;
+}
+
+.half{
+    border-color: rgb(240, 240, 240);    
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid;
+    border-width: 0.8px;
+}
+
+.half-plus{
+    margin-right: auto;
+    margin-right: 0;
+    border-left: solid;
+    border-left-width: 2px;
+    border-color: rgb(240, 240, 240);
+    text-align: right;
+  
+}
+
+.sidebar > img{
+    border-radius: 100px;
+}
+
+li {
+   list-style-type: none; 
+}
+.fa {
+  display: flex;
+  padding: 5px;
+  font-size: 10px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
