@@ -1,0 +1,125 @@
+:root {
+    --white: #fff;
+    --BackgroundColor: rgb(169,169,169);
+    --LivColor: rgb(0,255,0);
+    --QuatColor: rgb(255,255,0);
+    --OitoColor: rgb(255,0,0);
+    --orangecol: rgb(255,69,0);
+    --blue: rgb(0,0,245);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+}
+
+.titulo {
+    margin: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(0, 2, 24);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(185, 22, 24);
+}
+
+body {
+    background: var(--BackgroundColor);
+}
+
+.mainCartaz {
+    margin: 50px 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    -ms-grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.mainSection {
+    background: var(--white);
+    padding: 20px;
+    width: 100%;
+    max-width: 40vw;
+    border: solid 3px var(--bordaRosa);
+}
+
+@media screen and (max-width:1279px) {
+    .mainSection {
+        max-width: 80vw;
+    }
+}
+
+.mainSectionDois {
+    display: grid;
+    -ms-grid-template-columns: 1.3fr 1.6fr 0.1fr;
+    grid-template-columns: 1.3fr 1.6fr 0.1fr;
+    gap: 20px;
+}
+
+.imgFilme{
+    max-width: 300px;
+}
+
+.mainSectionDois_topImage {
+    width: 100%;
+}
+
+.mainSectionDois_top_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.mainSectionDois_top_desc p {
+    text-align: center;
+    width: 100%;
+}
+
+
+.classificacaoLivre,
+.classificacao14,
+.classificacao16,
+.classificacao18 {
+    padding: 10px;
+}
+
+.classificacaoLivre {
+    background: var(--LivColor);
+}
+
+.classificacao14 {
+    background: var(--orangecol);
+}
+
+.classificacao16 {
+    background: var(--QuatColor);
+}
+
+.classificacao18 {
+    background: var(--OitoColor);
+}
+
+.FilmesSimilares {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mainSection_Similares {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.mainSection_Similares img {
+    height: 100%;
+    border: solid 4px var(--bordaRosa);
+}
